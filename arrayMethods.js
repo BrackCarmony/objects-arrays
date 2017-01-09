@@ -31,10 +31,10 @@ ary1.indexOf('cheese'); // -1
 
 //Retuns the index of the item, or -1 if the item is not found.
 
-.contains(item)
+.includes(item)
 
-ary1.contains(7) //true
-ary1.contains('cheese')//false;
+ary1.includes(7) //true
+ary1.includes('cheese')//false;
 //Returns true if the array contains the item, false if it does not.
 
 .reverse()
