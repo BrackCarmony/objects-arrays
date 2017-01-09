@@ -1,12 +1,12 @@
+
 var ary1 = ['red','green','cyan'];
 var ary2 = [];
 var ary3 = [];
-// setInterval(draw, 1000)
 var imgDict = {};
 var last = {};
 
 
-setInterval(draw(), 100);
+setInterval(draw, 100);
 
 function draw(){
   clear(ary1,'x');
@@ -46,7 +46,7 @@ function drawColorSquare(zone, color, index, ary){
 function drawOtherSquare(zone, value, index, ary){
   var box = document.createElement('div');
   console.log(typeof value);
-  box.innerHTML=typeof value;
+  box.innerHTML=value.toString();
   box.setAttribute('class','box');
   box.setAttribute('style','background-color:mintcream');
   document.getElementById(zone).appendChild(box);

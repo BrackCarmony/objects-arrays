@@ -24,9 +24,17 @@ ary.fill(5)
 //Removes the last item from the array and returns it
 
 .indexOf(item)
+var ary1 = [1,5,3,7,4,1,6,8,3]
+ary1.indexOf(7);//3
+ary1.indexOf('cheese'); // -1
+
+
 //Retuns the index of the item, or -1 if the item is not found.
 
 .contains(item)
+
+ary1.contains(7) //true
+ary1.contains('cheese')//false;
 //Returns true if the array contains the item, false if it does not.
 
 .reverse()
